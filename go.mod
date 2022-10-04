@@ -8,7 +8,7 @@ require (
 	github.com/gin-contrib/zap v0.0.2
 	github.com/gin-gonic/gin v1.7.7
 	github.com/jessevdk/go-flags v1.5.0
-	github.com/lib/pq v1.10.4
+	github.com/lib/pq v1.10.7
 	github.com/stretchr/testify v1.7.0
 	go.uber.org/zap v1.21.0
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
