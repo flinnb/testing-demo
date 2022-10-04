@@ -12,6 +12,7 @@ jobs:
     name: Unit Tests
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
     services:
       postgres:
         image: postgres:12
