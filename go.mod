@@ -10,7 +10,7 @@ require (
 	github.com/jessevdk/go-flags v1.5.0
 	github.com/lib/pq v1.10.7
 	github.com/stretchr/testify v1.8.0
-	go.uber.org/zap v1.23.0
+	go.uber.org/zap v1.24.0
 	golang.org/x/crypto v0.0.0-20220926161630-eccd6366d1be
 	gotest.tools/gotestsum v1.8.2
 )
