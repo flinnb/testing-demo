@@ -12,7 +12,7 @@ require (
 	github.com/stretchr/testify v1.8.4
 	go.uber.org/zap v1.24.0
 	golang.org/x/crypto v0.11.0
-	gotest.tools/gotestsum v1.10.0
+	gotest.tools/gotestsum v1.10.1
 )
 
 require (
