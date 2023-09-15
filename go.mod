@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/disintegration/gift v1.2.1
 	github.com/gin-contrib/cors v1.4.0
-	github.com/gin-contrib/zap v0.1.0
+	github.com/gin-contrib/zap v0.2.0
 	github.com/gin-gonic/gin v1.9.1
 	github.com/jessevdk/go-flags v1.5.0
 	github.com/lib/pq v1.10.9
@@ -29,6 +29,7 @@ require (
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/go-playground/validator/v10 v10.15.3 // indirect
 	github.com/goccy/go-json v0.10.2 // indirect
+	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.5 // indirect
@@ -41,12 +42,10 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	github.com/ugorji/go/codec v1.2.11 // indirect
-	go.opentelemetry.io/otel v1.17.0 // indirect
-	go.opentelemetry.io/otel/trace v1.17.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	golang.org/x/arch v0.4.0 // indirect
+	golang.org/x/arch v0.5.0 // indirect
 	golang.org/x/mod v0.8.0 // indirect
-	golang.org/x/net v0.14.0 // indirect
+	golang.org/x/net v0.15.0 // indirect
 	golang.org/x/sync v0.1.0 // indirect
 	golang.org/x/sys v0.12.0 // indirect
 	golang.org/x/term v0.12.0 // indirect
