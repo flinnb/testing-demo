@@ -14,10 +14,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 
-	"connectrn-evaluation/internal/image"
-	"connectrn-evaluation/internal/logging"
-	"connectrn-evaluation/internal/middleware"
-	"connectrn-evaluation/internal/user"
+	"testing-demo/internal/image"
+	"testing-demo/internal/logging"
+	"testing-demo/internal/middleware"
+	"testing-demo/internal/user"
 )
 
 type ServerCmd struct {

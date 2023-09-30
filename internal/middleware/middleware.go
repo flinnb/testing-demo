@@ -12,7 +12,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 
-	"connectrn-evaluation/internal/logging"
+	"testing-demo/internal/logging"
 )
 
 // This is very similar to `ginzap.Ginzap`, but we wanted  more fields than

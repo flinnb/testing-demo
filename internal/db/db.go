@@ -13,14 +13,14 @@ var pool *sql.DB
 func Connect() (err error) {
 	connStr := fmt.Sprintf(
 		"user=%s password='%s' host=%s port=%s dbname=%s sslmode=%s connect_timeout=%d application_name='%s'",
-		"connectrn",
+		"demo",
 		"canary",
 		os.Getenv("DB_HOST"),
 		"5432",
 		os.Getenv("DB_NAME"),
 		"disable",
 		5,
-		"connectrn-eval",
+		"demo-eval",
 	)
 	pool, err = sql.Open("postgres", connStr)
 	return

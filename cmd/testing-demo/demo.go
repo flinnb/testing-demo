@@ -5,13 +5,13 @@ import (
 
 	flags "github.com/jessevdk/go-flags"
 
-	"connectrn-evaluation/cmd/connectrn/commands"
-	"connectrn-evaluation/internal/logging"
+	"testing-demo/cmd/testing-demo/commands"
+	"testing-demo/internal/logging"
 )
 
 func main() {
 	parser := flags.NewParser(nil, flags.Default)
-	parser.ShortDescription = "connectRN evaluation"
+	parser.ShortDescription = "Testing demo"
 	parser.LongDescription = ""
 
 	var err error

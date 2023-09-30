@@ -24,7 +24,7 @@ RUN adduser \
     --no-create-home \
     --uid "${UID}" \
     "${USER}"
-WORKDIR $GOPATH/src/connectrn/eval/
+WORKDIR $GOPATH/src/demo/
 COPY . .
 
 # Fetch dependencies.
@@ -34,7 +34,7 @@ RUN go mod verify
 # Build the binary
 RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build \
 	-ldflags='-w -s -extldflags "-static"' -a \
-	-o /go/bin/eval cmd/connectrn/evaluation.go
+	-o /go/bin/demo cmd/testing-demo/demo.go
 
 ############################
 # STEP 2 build a small image
@@ -48,7 +48,7 @@ COPY --from=builder /etc/passwd /etc/passwd
 COPY --from=builder /etc/group /etc/group
 
 # Copy our static executable
-COPY --from=builder /go/bin/eval /go/bin/eval
+COPY --from=builder /go/bin/demo /go/bin/demo
 
 # Use an unprivileged user.
 USER appuser:appuser
@@ -58,4 +58,4 @@ EXPOSE 8080
 ENV DB_HOST=host.docker.internal
 
 # Run the eval binary.
-ENTRYPOINT ["/go/bin/eval", "server"]
+ENTRYPOINT ["/go/bin/demo", "server"]

@@ -8,8 +8,8 @@ import (
 
 	"golang.org/x/crypto/bcrypt"
 
-	"connectrn-evaluation/internal/db"
-	"connectrn-evaluation/internal/logging"
+	"testing-demo/internal/db"
+	"testing-demo/internal/logging"
 )
 
 type UserRequest struct {

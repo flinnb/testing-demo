@@ -1,4 +1,4 @@
-module connectrn-evaluation
+module testing-demo
 
 go 1.17
 

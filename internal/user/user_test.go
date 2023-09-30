@@ -14,9 +14,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"connectrn-evaluation/internal/db"
-	"connectrn-evaluation/internal/logging"
-	"connectrn-evaluation/internal/middleware"
+	"testing-demo/internal/db"
+	"testing-demo/internal/logging"
+	"testing-demo/internal/middleware"
 )
 
 var ts *httptest.Server
