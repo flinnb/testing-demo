@@ -78,7 +78,7 @@ func (s *ServerCmd) setupRoutes(srv *http.Server) http.Handler {
 		AllowHeaders: []string{
 			"Content-Type",
 			"Authorization",
-			"X-Vela-Request-Id",
+			"X-Request-Id",
 			"Accept",
 			"Accept-Encoding",
 			"DNT",
