@@ -41,6 +41,5 @@ jobs:
       - name: Run tests
         run: |
           export PATH=$PATH:$(go env GOPATH)/bin
-          go get -d -u gotest.tools/gotestsum
           go install gotest.tools/gotestsum
           ./run-tests.sh
