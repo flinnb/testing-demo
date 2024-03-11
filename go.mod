@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/disintegration/gift v1.2.1
-	github.com/gin-contrib/cors v1.6.0
+	github.com/gin-contrib/cors v1.7.0
 	github.com/gin-contrib/zap v1.1.0
 	github.com/gin-gonic/gin v1.9.1
 	github.com/jessevdk/go-flags v1.5.0
